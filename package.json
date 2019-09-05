@@ -1,0 +1,11 @@
+{
+  "name": "wasm-example",
+  "version": "1.0.0",
+  "repository": "https://github.com/JordanPawlett/wasm-example.git",
+  "author": "Jordan Pawlett <jordanpawlett@googlemail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "./compile.sh",
+    "start": "node ./src/performance-test.js"
+  }
+}
