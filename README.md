@@ -9,9 +9,11 @@ Over 50 tests the C++ implementation appears to be an average of 2x faster than 
 
 The compilation time of the C++ / WASM version seems to be much more consistent than the javascript.
 
-### Run inside a Docker Container
-`npm run dc:up-build`
+### You Can Run The Example inside a Docker Container
+Ensure the docker script has permissions: `dockerisedCompileAndRun`
+Run: `npm run dc:up-build`
 
+## Alternatively - Run Locally
 ### Ensure the compile script has permissions
 Compile the C++ into WASM and the .js glue code required.
 `chmod +x ./compile.sh`
@@ -22,6 +24,7 @@ Compile the C++ into WASM and the .js glue code required.
 ### Once compiled, run the performance test.
 `npm start`
 
+## More Info
 
 ### Results against an array of size 600000 ran, 50 times.
 ```sh
