@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "compile": "./compile.sh",
-    "start": "node ./src/performance-test.js"
+    "start": "node ./src/performance-test.js",
+    "dc:up-build": "./dockerisedCompileAndRun.sh"
   }
 }
